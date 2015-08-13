@@ -17,7 +17,7 @@ public class UserController {
 	@RequestMapping("index")
 	public String index() {
 		User user = new User();
-		user.setNickname("guofeng");
+		user.setNickname("你好");
 		user.setState(2);
 		System.out.println(userService.insertUser(user));
 		return "index";
