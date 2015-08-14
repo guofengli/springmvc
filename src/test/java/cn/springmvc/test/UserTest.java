@@ -25,7 +25,7 @@ public class UserTest {
 	public void addUser() {
 		User user = new User();
 		user.setNickname("你好");
-		user.setState(2);
+//		user.setState(2);
 		System.out.println(userService.insertUser(user));
 	}
 }

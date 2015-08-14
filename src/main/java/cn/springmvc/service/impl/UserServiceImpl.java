@@ -18,4 +18,9 @@ public class UserServiceImpl implements UserService {
 		return userDAO.insertUser(user);
 	}
 
+	public String selectUser(String username) {
+		// TODO Auto-generated method stub
+		return userDAO.selectUser(username);
+	}
+	
 }
